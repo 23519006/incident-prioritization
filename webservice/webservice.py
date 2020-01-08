@@ -34,14 +34,9 @@ model_impact = pickle.load(
         os.path.join(__location__, "impact.model"), "rb"
     )
 )
-model_ticket_type = pickle.load(
-    open(
-        os.path.join(__location__, "ticket_type.model"), "rb"
-    )
-)
 model_category = pickle.load(
     open(
-        os.path.join(__location__, "category.model"), "rb"
+        os.path.join(__location__, "urgency.model"), "rb"
     )
 )
 
@@ -57,13 +52,13 @@ def index():
         <html>
         <body>
         Hello, World!<br>
-        This is a sample web service written in Python using <a href=""http://flask.pocoo.org/"">Flask</a> module.<br>
+        This is incident prioritization by Tessa Angela 23519006.<br>
         </body>
         </html>
         """
 
 
-@app.route('/endava/api/v1.0/predictall', methods=['POST'])
+@app.route('/incident-prioritization/api/v1.0/predictall', methods=['POST'])
 def predictall():
     ts = time.gmtime()
     logging.info("Request received - %s" % time.strftime("%Y-%m-%d %H:%M:%S", ts))
@@ -72,20 +67,11 @@ def predictall():
     description = request.json['description']
     description = preprocess_data(description)
 
-    predicted_ticket_type = model_ticket_type.predict([description])[0]
-    print("predicted ticket_type: "+str(predicted_ticket_type))
-
-    predicted_category = model_category.predict([description])[0]
-    print("predicted category: "+str(predicted_category))
-
     predicted_impact = model_impact.predict([description])[0]
     print("predicted impact: "+str(predicted_impact))
 
-    # predicted_business_service = model_business_service.predict([description])[0]
-    # print("predicted business_service: "+str(predicted_business_service))
-
-    # predicted_urgency = model_urgency.predict([description])[0]
-    # print("predicted urgency: "+str(predicted_urgency))
+    predicted_urgency = model_urgency.predict([description])[0]
+    print("predicted urgency: "+str(predicted_urgency))
 
     ts = time.gmtime()
     logging.info(
@@ -94,49 +80,9 @@ def predictall():
     )
     return jsonify({
         "description": description,
-        "ticket_type": predicted_ticket_type,
-        # "business_service": predicted_business_service,
-        "category": predicted_category,
-        "impact": predicted_impact
+        "impact": predicted_impact,
+        "urgency": predicted_urgency
     })
-
-
-@app.route('/endava/api/v1.0/category', methods=['POST'])
-def category1():
-    ts = time.gmtime()
-    logging.info("Request received - %s" % time.strftime("%Y-%m-%d %H:%M:%S", ts))
-    print(request)
-    print(request.json)
-    if not request.json or 'description' not in request.json:
-        abort(400)
-    description = request.json['description']
-    print(description)
-
-    predicted = model_category.predict([description])
-    print("Predicted: "+str(predicted))
-
-    ts = time.gmtime()
-    logging.info("Request sent to evaluation - %s" % time.strftime("%Y-%m-%d %H:%M:%S", ts))
-    return jsonify({"category": predicted[0]})
-
-
-@app.route('/endava/api/v1.0/tickettype', methods=['POST'])
-def tickettype():
-    ts = time.gmtime()
-    logging.info("Request received - %s" % time.strftime("%Y-%m-%d %H:%M:%S", ts))
-    print(request)
-    print(request.json)
-    if not request.json or 'description' not in request.json:
-        abort(400)
-    description = request.json['description']
-    print(description)
-
-    predicted = model_ticket_type.predict([description])
-    print("Predicted: " + str(predicted))
-
-    ts = time.gmtime()
-    logging.info("Request sent to evaluation - %s" % time.strftime("%Y-%m-%d %H:%M:%S", ts))
-    return jsonify({"ticket_type": predicted[0]})
 
 
 # Data prep - much to improve :)
