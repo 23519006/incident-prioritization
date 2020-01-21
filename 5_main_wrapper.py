@@ -11,7 +11,7 @@ sys.path.append("..")
 if __name__ == "__main__":
         
     classifier = input("Input Classifier yang diinginkan: ")
-    classifier = "D3"
+#     classifier = "D3"
     print("--"*25)
 
     w, h = 4, 2;
