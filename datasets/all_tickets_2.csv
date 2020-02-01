@@ -59,9 +59,6 @@ The mobile number error message is also wrong lol
  # Upload Certificate field should be mandatory not optional
  # The title should contain format and size file allowed e.g Upload Certificate (.pdf, .jpeg, .jpg, .png maximum size : 5MB)
  # The inline error message not same as inline error message format !image-2019-02-25-13-56-26-919.png!",3,3,3
-7 Days Retain Corpse Form - Error in styling inline error message not show max char,"After clicking next without filling any fields on organisation information, inline error message on fields under 'Contact Person' and 'Family Contact Person' not show max char allowed 
-
-!image-2019-02-25-13-47-36-108.png!",,,3
 7 Days Retain Corpse Form - Error in styling on 'Identification Number' and Date of Death field,"Here are some error that has been found : 
  # Identification Number inline error message field, not show maximum digit allowed
  #  Date of death field not show inline error message field and the field color not changes to red  !image-2019-02-25-13-59-45-637.png!",3,3,3
@@ -124,7 +121,6 @@ Add New Accordion is not working,"The form is not appear, it supposed to show si
 
 !image-2019-01-11-12-10-06-713.png!",2,2,3
 Add System Administration and Code Maintenance to the Global Menu for Dept User,!image-2019-02-13-17-23-28-375.png!,3,3,2
-Add Update of Particulars of Next of Kin,-,x,x,3
 Add View Function for Role Management and Scope Management,!image-2019-01-30-17-52-47-096.png!,3,3,3
 Add/Update NOK - LOVs missing,"Please add the LOVs for these 2 cemeteries:
 
@@ -133,11 +129,6 @@ Christian (PR)
 Christian (RC)
 
 !image-2019-05-06-18-04-53-585.png!",3,2,3
-Add/Update Particulars of Next of Kin,-,x,x,3
-"Adding ""Created Date & Time"" on the table","It would be better to have ""Created date & time"" to help the user sort the list by time since the ID is random
-
-!image-2019-01-08-19-03-33-765.png!",,,3
-Addition of Cremated Remains,-,x,x,3
 Addition of Cremated Remains to Niche/Grave in ePortal Internet,"SingPass login
 Although user already logged in via SingPass, no auto-population of MyInfo details",3,2,3
 Addition of Cremated Remains to Niche/Grave in ePortal Internet,"When 'Save as Draft', when click on 'eye' icon, nothing comes out",2,2,1
@@ -212,15 +203,6 @@ Alignment issue in dashboard,"1) Alignment of *. See attached screenshot with re
 
 2) Why is there a tick symbol? See attached screenshot with orange box.",3,3,3
 "All Service is Under ""Maintenance"" Status on Internet",!image-2019-02-09-23-32-20-434.png!,2,2,2
-All ePortal services not available,"*Reporter : Xtremax*
-
-*Assignee* : %Bala%
-
-*Time :* 13 September 2019, 6:32 PM
-
-Uptime : 13 September 2019, 10:25 PM
-
-!image-2019-09-13-17-55-05-124.png!",x,x,2
 Alt text for logos are incorrect,"Correct alt should be:
  # A Singapore Government Agency Website
  # National Environment Agency
@@ -329,7 +311,6 @@ Application to Retain Corpse for Period Exceeding 7 Days - Cannot upload file in
 Application to Retain Corpse for Period Exceeding 7 Days - Update Field Name,"Please help to change the following field name into ""Identification No"" This is at the page 2
 
 !image-2019-03-19-21-58-14-850.png!",3,3,3
-Apply for Authorisation for Third Party Application Services,-,x,x,3
 Appointment Form - Populate values ,"For this, can we:
  # Populate the mobile number, but editable
  # Populate the email address, but editable",3,3,3
@@ -497,9 +478,6 @@ Blank Reference number in inbound document listing,"Currently in Inbound documen
 Please hide it or include additional column to indicate what is the application status.
 
 !image-2019-07-02-22-53-01-666.png!  ",3,3,3
-Blank page,See attached screenshots.,x,x,1
-Blank page,See attached screenshots.,x,x,3
-Blank page for Application List,See attached screenshots.,x,x,2
 Blank page for Application Passed SLA Time,Blank page shown upon clicking on Application Passed SLA Time in dashboard.,3,2,2
 Blank page for Dashboard,"Click on Home link from other pages and the dashboard is blank.
 
@@ -525,7 +503,6 @@ Building Plan - Error Contractor Information,"Under 'Contractor Information' sho
 "Building Plan Consultation Detail Page, Step 4 of 4","Error on the consultation Detail Section
 
 !image-2019-01-14-19-02-27-508.png!",3,3,2
-Building Plan Consultation Form,-,x,x,3
 Building Plan Consultation Request,"1. CBPD – Building Plan Consultation Request
 
 2. Login via CorpPass: Organisation Name should be editable
@@ -1020,26 +997,6 @@ Claim Registration for Exhumation form - 'Apply with CorpPass' show in introduct
 Claim Registration for Exhumation form - Form details not show in application detail page,"After submitting form and click the eye icon on acknowledgement page, user will be directed to application detail page. In detail page, there is should contain all information that has been field by user include the form details. But form details not show in detail page 
 
 !image-2019-02-20-20-28-59-670.png!",2,3,2
-Clarifications for users - e-portal Intranet (Registration for CSLT Beaches),"*Reporter*: Nancy Lim, 3PND
-
-Hi Extremax and ITD,
-
- 
-
-We encountered the enclosed bugs in e-portal Intranet for ‘Registration for CSLT Beaches’.
-
- 
-
-Please assist to look into it.
-
- 
-
-[^nea eportal intranet clarification.pptx]
-
- 
-
-Thanks",x,x,3
-Clean Singapore Learning Trail,-,x,x,3
 Clear button and advanced search missing,"Missing Advance search and clear button should be moved inside the advanced search
 
 !image-2019-01-09-18-26-23-758.png!",3,3,2
@@ -1213,7 +1170,6 @@ Content length for announcement in homepage,"Can we limit the content to a short
 !image-2019-01-15-12-34-05-246.png!
 
 !image-2019-01-15-12-35-00-372.png!",3,3,3
-CorpPass,https://stg-saml.corppass.gov.sg/FIM/sps/CorpIDPFed/saml20/logininitial?RequestBinding=HTTPArtifact&ResponseBinding=HTTPArtifact&PartnerId=https://www.eportal-stg.nea.gov.sg/idp/spcp/partnerId&Target=idpreturnurl-corppass-782F6D2F7DB5A3857219DE74BF8958F09ACDFC62EF011DDCF96F6E4F7B274BB0&NameIdFormat=Email&esrvcID=NEA-ESVC,x,x,3
 CorpPass - Registered Address is not populated,!CorpPass - Registered address.JPG!,2,2,2
 "CorpPass - Retrieve Deceased Detail is not working properly for ""Unknown"" type","When application type is ""Unknown"", error message and logic check for ""Retrieve Deceased Details"" are wrong
 
@@ -1282,7 +1238,6 @@ Create What's New Wrong Error Message,"I try to put a text that exceeds the data
 
 !image-2019-01-10-15-14-55-757.png!",3,3,3
 Create the Health Check Service to Test ESB Interfacing,Please provide the health check for testing not only the connection but the whole interfacing itself (so can get 200 response),3,3,3
-Cremated Remains Ashes Form,-,x,x,3
 Cremated Remains Form - Error in styling on Request Information page,"Here are some errors that has been found 
  # Title of 'Upload Letter of Authorisation' and 'Applicant NRIC/Non-Singapore Passport' should contain allowed format and file size. !image-2019-02-25-16-32-59-594.png!
  # 'Date of Death' and 'Add-On Date' not show inline error message and the field color not change to red  !image-2019-02-25-16-34-08-118.png!
@@ -1488,7 +1443,6 @@ Directed to wrong form,"# The service's name is wrong, it supposed to be ""Addit
  
 
 !cremated remains ash.gif!",3,3,3
-Directly link to SingPass/CorpPass,!image-2019-01-22-19-40-20-407.png!,x,x,3
 "Disable ""Name"" Field for Maintenance Maintenance Announcement","Disable the ""Name"" field since the name should not be updated else the maintenance will have issue. 
 
  
@@ -1596,7 +1550,6 @@ Ensure consistency on the name and order of the sub module for Cron,"Standardize
 !image-2019-01-23-19-57-10-399.png!
 
  ",3,3,2
-Erect a Tombstone,-,x,x,3
 Error 403 for Report,See attached screenshot.,1,1,2
 Error 404 for eAppointment module,See attached screenshots.,1,1,1
 Error 404 in Follow-up in My Pending Action  ,See attached screenshots.,1,1,1
@@ -2012,10 +1965,6 @@ Forms are not supposed to be mandatory,"According to the FS, these 2 are not man
 !image-2019-01-11-18-36-50-879.png!",2,3,3
 Frequent Inaccurate Loading of eServices directory,"!image-2019-04-09-17-37-17-858.png|width=385,height=514!
 This matter can sometimes be solved by just refreshing the page or clicking the letter again, however it happens frequently enough for it to be an issue of concern. User highlighted this problem several times. Found this issue in the internet staging site at NEA.",3,3,3
-Functionality not working,See attached screenshot.,x,x,3
-Functionality not working,"See attached screenshot.
-
-Clicking on the buttons does not trigger any action.",x,x,3
 General Login Page,"!image-2019-04-12-17-06-30-682.png|thumbnail!
  # Custom Account login button missing. 
  # Singpass should be SingPass
@@ -2097,7 +2046,6 @@ Hold Prayer CCK Form - Error styling in Praying Date on Service Information,"1. 
 Hold Prayer CCK Form - Error styling in Result field on Organisation Information,"There is a dropdown arrow on Result field after filling the field. 
 
 !image-2019-02-20-11-48-22-777.png!",3,3,3
-Hold Prayer at CCKC,-,x,x,3
 Home page load in a frame,See attached screenshots.,3,3,2
 Homepage Categories disappear when clicked Home button,"No Category are displayed when clicked Home button at CBPD Building Plan Consultant Request landing page. 
 
@@ -2671,12 +2619,6 @@ There are supposed to be icons under 'Action' to view or delete the applications
 There are supposed to be icons to download, email or view the successful application.
 
 !image-2019-04-23-11-20-00-455.png|width=292,height=168!",3,3,3
-Internet - Loan of Exhibit - Unable to submit application,"Application cannot submit after 3mins and even longer.
-
-!image-2019-06-13-05-29-19-568.png!",,,2
-Internet - Loan of Exhibits - Unable to go to the next page,"I have selected at least one exhibit and it does not allow me to proceed next
-
-!image-2019-06-13-05-26-11-883.png!",,,2
 Internet - Loan of Exhibits Form Advances Without Filling In Any FIelds,"In 'Request for Loan of Exhibits', it is possible to advance past Stage 4 despite not filling in any fields. Issue exists for both Singpass and Corppass logins.
 
 Not filling in any fields:
@@ -3101,7 +3043,6 @@ Internet Module - User not directed to In Progress tab after withdrawing applica
 Internet Service Status is Not Match with Intranet Service Status,"It seems like all of the statuses of service on the internet is ""Maintenance"". It's not matched with service status at intranet.
 
 !image-2019-01-14-17-03-41-628.png!",2,2,2
-Internet UAT Issues on 12 June 2019,Jocelyn's reported issues on 12 June 2019:,x,x,3
 Internet ePortal Services not Available,"*Reporter : Xtremax*
 
 *Assignee* : %Binxian%
@@ -3216,9 +3157,6 @@ The advance search list should able to filter based on :
 Intranet - Audit Trail Report 502 Error,"When search for audit report, error showed
 
 !image-2019-06-29-18-34-54-131.png!",1,1,1
-Intranet - Audit Trail Report is not sorted by time,"Why the timing is not in ascending or descending order? Batch job for reports eg: independent reviewer not ready
-
-!image-2019-06-29-18-32-11-733.png!",,,2
 Intranet - Audit Trail does not track username and service,"I change the configuration to add my email address to Application to remove urns service, I cannot find the log to reflect the changes I made. The Username should reflect my name and not system. Should have another column of what services I have made changes
 
 !image-2019-06-29-18-36-28-955.png!",2,2,2
@@ -3721,7 +3659,6 @@ Intranet System Configuration: Type not loaded in edit mode,See attached screens
 Intranet System Configuration: Unable to Create Cron Configuration,See attached screenshot.,1,2,1
 Intranet System Configuration: Unable to create Boolean configuration,See attached screenshot.,1,2,1
 Intranet System Configuration: Unable to understand without any tooltip,See attached screenshot.,3,3,3
-Intranet System Configuration: Unknown fields pop-up,See attached screenshots.,x,x,2
 Intranet UI Error - System Configuration,*Reporter*: Xtremax,3,3,3
 Intranet eAppointment Testing - Null field error message does not appear ,"!image-2019-04-08-17-06-02-365.png!!image-2019-04-08-17-47-11-691.png! Contrary to the expected result, clicking 'Create' without filling any fields does not produce the error message in all fields. Only the header 'Create Failed. undefined'/'Create Failed. Request data is not correct.' appears. The other fields remain empty without any prompt.",3,3,3
 Intranet module - Cannot redirect to application listing page,"After logging in as Operational user to intranet portal and click on '*New Application Submitted Today*', the system directed user to the application list page, but the loading icon not gone. Please see the attachment ",2,2,2
@@ -4362,7 +4299,6 @@ Need to Change the Login Page,"Need to change the following page to the new desi
 
 !image-2019-01-17-17-48-19-369.png!",3,3,3
 Need to add country code on Custom Account Creation,!image-2019-01-11-19-23-56-152.png!,3,3,3
-Need to have application message instead ,See attached screenshot.,x,x,3
 Never Disappear Alert,!image-2019-01-16-15-26-29-450.png!,3,3,3
 Never Disappear Confirmation Message,"[~eldwin] told me that this message supposed to disappear after several seconds. Please confirm with him
 
@@ -4800,8 +4736,6 @@ Pending Cancellation Application Cannot Be Approved,"I try to approve pending ca
  
 
 !image-2019-01-31-19-56-24-863.png!",1,1,1
-Permission to Exhume Corpse,-,x,x,3
-Permission to Retain Corpse,-,x,x,3
 Permission to Retain Corpse for a Period Exceeding 7 Days - No Suggested service was apprear,"Hi,
 
 After i type Permission to Retain Corpse for a Period Exceeding 7 Days or Retain or Corpse, no service was suggested to me :
@@ -4957,7 +4891,6 @@ Quieter Works Form - Error upon notification,"After submitting an application, t
 Quieter Works Form - Exemption Request Period field doesn't show error messages,"Both Exemption Request Period start and end, will show error message if user filled the fields with wrong date. Exemption Request Period (Start) should be filled with at least one month from submission date and Exemption Request Period (End) should be filled with maximum 6 months from submission date. 
 
 !image-2019-02-20-10-56-16-275.png!",2,3,3
-Quieter Works on Specific Sundays and PH,-,x,x,3
 Quieter Works on Specific Sundays or PH Contact Info,"Please hide the designation when the person-in-charge option is ""No""
 
 This info can be found on page 2 of the form
@@ -4970,7 +4903,6 @@ RE: FW: Unable to view Building Plan Consultation Request Application,"*Reporter
 User reported unable to download the files again on 25 Oct 2019. Xtremax checked that the prod SFTP account got locked out again.
 
 !image-2019-10-25-20-31-36-571.png! ..",3,3,3
-Rate Our Website is not in ePortal,-,x,x,3
 Re-captcha is not appearing,"Hi,
 
 re-captcha should be appeared after giving six stars and put ""testing"" as the comment on the Rate This Site page, however, there is no re-captcha appeared, only protect by reCaptcha icon appears.
@@ -5177,26 +5109,6 @@ Scope checking is not implemented for Code Maintenance,"Please add scope checkin
 Scope item missing,"Sometimes when I try to change the scope item, the second scope item will disappear. Maybe its because the close button is too near with the scope item, need to fix the UI
 
 !image-2019-01-04-15-46-40-843.png!",3,3,3
-Screenshots for DSS Compliance,"This is not a bug ticket. 
-
-Chrome:
-
-!image-2019-04-29-16-46-24-907.png!
-
- 
-
-Microsoft Edge:
-
-!image-2019-04-29-16-46-04-515.png!
-
-Internet Explorer:
-
-!image-2019-04-29-16-47-21-604.png!
-
- 
-
- ",x,x,x
-Screenshots for SIT Report,-,x,x,x
 Search Function Not Working,"The search function didn't show the suggestion
 
  
@@ -5524,7 +5436,6 @@ Surrender of Lease of Niche/Grave - Able to select past dates for Removal date,"
 Surrender of Lease of Niche/Grave - Tooltip not required,"Based on FS, there are no tooltips for all of these fields. Please remove them.
 
 !image-2019-04-12-17-22-37-462.png!",3,3,3
-Surrender of Niche Lease and Removal of Urn,-,x,x,3
 Surrender of Niche Lease and Removal of Urn service in ePortal Internet,"CorpPass login
 Deceased Information cannot be the same as Requestor Information
 Removal date can be many many years apart, like 100 years, which is unreasonable",3,3,3
@@ -5663,7 +5574,6 @@ There is to proper application title to the form page,"There is to proper applic
  
 
 !image-2019-04-09-19-04-49-086.png!",3,3,3
-Third Party Application,-,x,x,3
 This should be last login date?,!image-2019-02-08-12-24-03-746.png!,3,3,3
 Time design doesn't look nice,See attached screenshot.,3,3,3
 Timeout txn status changed to 'failed' instead of 'cancelled'. ,"Hi all,
@@ -6197,7 +6107,6 @@ Weekly Submission - Error in country code ,"After adding new builder and filling
 
 !image-2019-03-19-17-05-09-804.png!",2,2,2
 Weekly Submission form UEN validation not working,!image-2019-02-09-17-08-05-740.png!,3,3,3
-Weekly Submission of Construction Activities,-,x,x,3
 Weekly Submission on ePortal down,"*!ossm 165.gif! Reporter :* Boaz Leong, PCD
 
 *Assignee :*  %Jason%
@@ -6248,7 +6157,6 @@ Width of table in My Applications,"I noticed that the 'Reference No' column is q
 Can we look at reducing the width of 'Reference No' to 20% and increasing the width of 'Application' to 30%?
 
 !image-2019-01-10-16-07-06-502.png|thumbnail!",3,3,3
-Written Permission to Exhume Corpse,-,x,x,3
 Written Permission to Exhume Corpse - Field validation errors,"Pleas see screenshot. Should follow the same validation as the rest.
 
 1. LOA
