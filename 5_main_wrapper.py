@@ -30,63 +30,63 @@ if __name__ == "__main__":
     # business service = 3
 
     predicts = ["urgency","impact"]
-    columns = ["title","body","category","business_service"]
+    columns = ["title","body"]
 
     i = 0
     j = 0
     for column_to_predict in predicts:
         j = 0
         for text_columns in columns:
-            clf_model[i][j] = pickle.load(open('./pickle/text_'+classifier+'_'+text_columns+'_'+column_to_predict+'_model.pickle',"rb"))
+            clf_model[i][j] = pickle.load(open('./pickle/xtremax/text_'+classifier+'_'+text_columns+'_'+column_to_predict+'_model.pickle',"rb"))
             j+=1
         i+=1
 
     title_content = input("Masukkan judul insiden        : ")
     body_content = input("Masukkan deskripsi insiden    : ")
-    cat_content = input("Masukkan kategory insiden     : ")
-    bus_content = input("Masukkan bus. service insiden : ")
+    # cat_content = input("Masukkan kategory insiden     : ")
+    # bus_content = input("Masukkan bus. service insiden : ")
     print("--"*25)
 
     title = {"title":[title_content]}
     body = {"body":[body_content]}
-    category = {"category": [cat_content]}
-    business_service = {"business_service":[bus_content]}
+    # category = {"category": [cat_content]}
+    # business_service = {"business_service":[bus_content]}
 
     urgency_title = clf_model[0][0].predict(title)
     urgency_body = clf_model[0][1].predict(body)
-    urgency_category = clf_model[0][2].predict(category)
-    urgency_business_service = clf_model[0][0].predict(business_service)
+    # urgency_category = clf_model[0][2].predict(category)
+    # urgency_business_service = clf_model[0][0].predict(business_service)
 
     urgency_data = {"title":urgency_title,
                     "body":urgency_body,
-                    "category":urgency_category,
-                    "business service":urgency_business_service,
+                    # "category":urgency_category,
+                    # "business service":urgency_business_service,
                     "result":None}
 
     urgency_df = pd.DataFrame(urgency_data)
 
     urgency_vars = urgency_df.iloc[:,:-1]
 
-    urgency_model = pickle.load(open('./pickle/'+classifier+'_urgency_weight_model.pickle',"rb"))
+    urgency_model = pickle.load(open('./pickle/xtremax/'+classifier+'_urgency_weight_model.pickle',"rb"))
     predicted_urgency = urgency_model.predict(urgency_vars)
     # print(predicted_urgency)
 
     impact_title = clf_model[1][0].predict(title)
     impact_body = clf_model[1][1].predict(body)
-    impact_category = clf_model[1][2].predict(category)
-    impact_business_service = clf_model[1][0].predict(business_service)
+    # impact_category = clf_model[1][2].predict(category)
+    # impact_business_service = clf_model[1][0].predict(business_service)
 
     impact_data = {"title":impact_title,
                     "body":impact_body,
-                    "category":impact_category,
-                    "business service":impact_business_service,
+                    # "category":impact_category,
+                    # "business service":impact_business_service,
                     "result":None}
 
     impact_df = pd.DataFrame(impact_data)
 
     impact_vars = impact_df.iloc[:,:-1]
 
-    impact_model = pickle.load(open('./pickle/'+classifier+'_impact_weight_model.pickle',"rb"))
+    impact_model = pickle.load(open('./pickle/xtremax/'+classifier+'_impact_weight_model.pickle',"rb"))
     predicted_impact = impact_model.predict(impact_vars)
     # print(predicted_impact)
 
@@ -98,7 +98,7 @@ if __name__ == "__main__":
 
     final_vars = final_df.iloc[:,:-1]
 
-    final_model = pickle.load(open('./pickle/'+classifier+'_priority_model.pickle',"rb"))
+    final_model = pickle.load(open('./pickle/xtremax/'+classifier+'_priority_model.pickle',"rb"))
 
     priority = final_model.predict(final_vars)
 
@@ -110,16 +110,16 @@ if __name__ == "__main__":
     for symbol in symbols:
         final_body = final_body.replace(symbol,"")
 
-    final_category = category["category"][0]
-    final_business = business_service["business_service"][0]
+    # final_category = category["category"][0]
+    # final_business = business_service["business_service"][0]
     final_urgency = final_data["urgency"][0]
     final_impact = final_data["impact"][0]
     final_priority = priority[0]
 
     print("Title            :",final_title)
     print("Body             :",final_body)
-    print("Category         :",final_category)
-    print("Business Service :",final_business)
+    # print("Category         :",final_category)
+    # print("Business Service :",final_business)
     print("Urgency          :",final_urgency)
     print("Impact           :",final_impact)
     print("Priority         :",final_priority)
@@ -147,8 +147,8 @@ if __name__ == "__main__":
             
             print("Title            :",final_title)
             print("Body             :",final_body)
-            print("Category         :",final_category)
-            print("Business Service :",final_business)
+            # print("Category         :",final_category)
+            # print("Business Service :",final_business)
             print("Urgency          :",final_urgency)
             print("Impact           :",final_impact)
             print("Priority         :",final_priority)
