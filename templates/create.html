@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Report An Incident</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<form accept-charset="UTF-8" action="action_page.php" autocomplete="off" method="GET" target="_blank">
+		<fieldset>
+			<legend>Report An Incident</legend>
+			<label for="title">Summary</label><br/>
+			<input name="title" type="text"/> <br/>
+			<label for="body">Description</label><br/>
+			<textarea cols="30" rows="5"></textarea><br/>
+			<label for="impact">Impact</label><br/>
+			<select>
+				<option selected="selected" value="0">Undefined</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+			</select><br/>
+			<label for="urgency">Urgency</label><br/>
+			<select>
+				<option selected="selected" value="0">Undefined</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+			</select><br/>
+			<label for="priority">Priority</label><br/>
+			<select>
+				<option selected="selected" value="0">Undefined</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+			</select><br/>
+			<input type="button" onclick="window.location.href = 'index.html';" value="Submit">
+			<a href="index.html">Cancel</a>
+		</fieldset>
+	</form>
+</body>
+</html>
